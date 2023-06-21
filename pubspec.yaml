@@ -1,7 +1,8 @@
 name: simple_mention
 description: This is simple mention package.
 version: 0.0.1
-homepage:
+repository: https://github.com/arcanine33/simple_mention
+issue_tracker: https://github.com/arcanine33/simple_mention/issues
 
 environment:
   sdk: '>=3.0.5 <4.0.0'

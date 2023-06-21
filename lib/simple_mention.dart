@@ -1,7 +1,6 @@
 library simple_mention;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/mention_text_field.dart' show MentionTextField;
+export 'src/mention_text_field_controller.dart' show MentionTextFieldController;
+export 'src/member_list.dart' show MemberList;
+export 'src/mention_member_model.dart' show MentionMemberModel;
