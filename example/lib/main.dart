@@ -32,21 +32,24 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   late MentionTextFieldController controller;
-  List<MentionMemberModel> list = [];
+
   @override
   void initState() {
-
-    controller = MentionTextFieldController(
-        myName: 'James Anderson', memberList: [
-      MentionMemberModel(uid: '1', name: 'Emily Thompson', picture: 'assets/b.jpg'),
-      MentionMemberModel(uid: '2', name: 'Oliver Smith', picture: 'assets/a.jpg'),
+    controller =
+        MentionTextFieldController(myName: 'James Anderson', memberList: [
+      MentionMemberModel(
+          uid: '1', name: 'Emily Thompson', picture: 'assets/b.jpg'),
+      MentionMemberModel(
+          uid: '2', name: 'Oliver Smith', picture: 'assets/a.jpg'),
       MentionMemberModel(uid: '3', name: 'Sophia Johnson', picture: ''),
       MentionMemberModel(uid: '4', name: 'Elijah Williams', picture: ''),
       MentionMemberModel(uid: '5', name: 'Olivia Jones', picture: ''),
-      MentionMemberModel(uid: '6', name: 'William Brown', picture: 'assets/d.jpg'),
+      MentionMemberModel(
+          uid: '6', name: 'William Brown', picture: 'assets/d.jpg'),
       MentionMemberModel(uid: '7', name: 'Ava Davis', picture: 'assets/c.jpg'),
       MentionMemberModel(uid: '8', name: 'James Miller', picture: ''),
-      MentionMemberModel(uid: '9', name: 'Isabella Wilson', picture: 'assets/e.jpg'),
+      MentionMemberModel(
+          uid: '9', name: 'Isabella Wilson', picture: 'assets/e.jpg'),
       MentionMemberModel(uid: '10', name: '홍길동', picture: ''),
       MentionMemberModel(uid: '11', name: '너무 멋진 강아지', picture: ''),
       MentionMemberModel(uid: '12', name: '행복한 다람쥐', picture: ''),
@@ -63,10 +66,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: MentionTextField(
-          controller: controller,
-        )
-      ),
+          child: MentionTextField(
+        controller: controller,
+      )),
     );
   }
 }
