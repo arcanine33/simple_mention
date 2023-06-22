@@ -11,10 +11,6 @@
 </p>
 
 
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## Features
 Use this plugin in your Flutter app to:
 - 텍스트 필드에서 멘션을 사용할 수 있습니다.
