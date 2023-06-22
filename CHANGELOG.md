@@ -1,3 +1,6 @@
+## 0.0.2
+* I've corrected the video path in the README. Now the video looks good :)
+
 ## 0.0.1
 
 * You can create a list of mentions
