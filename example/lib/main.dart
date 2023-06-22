@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
       MentionMemberModel(uid: '11', name: '너무 멋진 강아지', picture: ''),
       MentionMemberModel(uid: '12', name: '행복한 다람쥐', picture: ''),
       MentionMemberModel(uid: '13', name: '조용한 고양이', picture: ''),
+      MentionMemberModel(uid: '14', name: '조용한 고양이', picture: 'assets/f.jpeg'),
     ]);
     super.initState();
   }
