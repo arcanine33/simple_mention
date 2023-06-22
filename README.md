@@ -1,5 +1,7 @@
+### [KOREAN] (README.ko-kr.md)
+
 - Add mention functionality easily with the TextController and TextField provided by Simple Mention!
-- 오로지 가볍고 간단한 멘션 기능을 제공하는 것이 목적입니다!
+- The goal is to provide only a lightweight and simple mention function!
 
 
 <p>
