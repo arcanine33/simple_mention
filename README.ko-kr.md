@@ -4,10 +4,10 @@
 
 
 <p>
-  <img src="https://github.com/arcanine33/simple_mention/assets/39107341/0bfde0b8-e1e9-4e32-b0c1-741ae96e538f"
+  <img src="https://github.com/arcanine33/simple_mention/assets/39107341/a27e802c-1fd2-49b2-a213-4161e4c34edf"
     alt="An animated image demonstrating the English Mention functionality" height="400"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/arcanine33/simple_mention/assets/39107341/e170462c-8de7-4067-8914-eb0d5344d8f2"
+  <img src="https://github.com/arcanine33/simple_mention/assets/39107341/26517e38-e45d-457f-a4cc-ed613af12237"
    alt="An animated image demonstrating the Korean Mention functionality " height="400"/>
 </p>
 
