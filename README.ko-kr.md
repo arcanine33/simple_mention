@@ -1,5 +1,6 @@
-- Add mention functionality easily with the TextController and TextField provided by Simple Mention!
+- simple mention 에서 제공하는 TextController 와 TextFiled 로 간편하게 멘션 기능을 추가하세요!
 - 오로지 가볍고 간단한 멘션 기능을 제공하는 것이 목적입니다!
+- flutter_mention package 에서 영감을 받아 만들었습니다.
 
 
 <p>

@@ -2,7 +2,7 @@
 
 - Add mention functionality easily with the TextController and TextField provided by Simple Mention!
 - The goal is to provide only a lightweight and simple mention function!
-
+- It was inspired by the flutter_mention package.
 
 <p>
   <img src="https://github.com/arcanine33/simple_mention/assets/39107341/0bfde0b8-e1e9-4e32-b0c1-741ae96e538f"
