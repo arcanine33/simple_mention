@@ -1,4 +1,4 @@
-### [KOREAN] (README.ko-kr.md)
+### [KOREAN](README.ko-kr.md)
 
 - Add mention functionality easily with the TextController and TextField provided by Simple Mention!
 - The goal is to provide only a lightweight and simple mention function!
