@@ -10,15 +10,20 @@
    alt="An animated image demonstrating the Korean Mention functionality " height="400"/>
 </p>
 
+
+
+TODO: Put a short description of the package here that helps potential users
+know whether this package might be useful for them.
+
 ## Features
 Use this plugin in your Flutter app to:
-- Mention users in a text field
-- Display the selected mention user's name in blue.
+- 텍스트 필드에서 멘션을 사용할 수 있습니다.
+- 선택한 멘션 유저의 이름이 파란색으로 표시 됩니다.
 
 ## Getting started
-1. Please enter the user information to be displayed in MentionList in the MentionMemberModel.
-2. Create a MentionList through this.
-3. Put the MentionList into the MentionTextFieldController constructor.
+1. MentionMemberModel 에 MentionList 에 띄울 유저의 정보를 넣어 주세요.
+2. 이를 통해 MentionList 를 생성 합니다.
+3. MentionList 를 MentionTextFieldController 생성자에 넣어 주세요.
 
 ```dart
 late MentionTextFieldController controller;
@@ -45,14 +50,14 @@ void initState() {
 } 
 ```
 
-4. Write the MentionTextField where you want.
-5. Please insert the MentionTextFieldController into the controller parameter.
-6. That's it! You can use mention by pressing the specified pattern.
+4. MentionTextField 를 원하는 곳에 작성 합니다.
+5. controller 매개변수에 MentionTextFieldController 를 넣어 주세요.
+6. 끝! 지정한 pattern 을 눌러 멘션을 사용 할 수 있습니다.
 
 
 ## TODO
-- If a space is included in the name, it appears replaced with _. I'm looking for a way to show it as a space.
-- When you click on a mention, the mentioned user's name is highlighted in blue. We plan to add a feature to change it to another color.
-- We plan to add a feature that allows you to highlight your specified name in a different color when you click on it.
-- There is no test code for the package. We plan to add it. (Any help is appreciated!)
-- We welcome a variety of other ideas!
+- 이름에 공백이 들어갈 경우 공백은 _ 로 치환해 보입니다. 공백으로 보여줄 방법을 찾고 있습니다.
+- 멘션을 누르면 멘션된 유저의 이름이 파란색으로 표시됩니다. 다른 색상으로 변경할 수 있는 기능을 추가할 예정입니다.
+- 지정한 본인의 이름을 누르면 다른 색상으로 표시할 수 있는 기능을 추가할 예정입니다.
+- 패키지에 대한 테스트 코드가 없습니다. 추가할 예정입니다. (도움 부탁드립니다!)
+- 그 외 다양한 아이디어를 환영합니다!
