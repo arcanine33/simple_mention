@@ -36,12 +36,6 @@ class MentionTextField extends StatefulWidget {
   final int? minLines;
   final bool expands;
   final bool readOnly;
-  @Deprecated(
-    'Use `contextMenuBuilder` instead. '
-        'This feature was deprecated after v3.3.0-0.5.pre.',
-  )
-  final ToolbarOptions? toolbarOptions;
-  final bool? showCursor;
   static const int noMaxLength = -1;
   final int? maxLength;
   final MaxLengthEnforcement? maxLengthEnforcement;
@@ -108,12 +102,6 @@ class MentionTextField extends StatefulWidget {
     this.textAlignVertical,
     this.textDirection,
     this.readOnly = false,
-    @Deprecated(
-      'Use `contextMenuBuilder` instead. '
-          'This feature was deprecated after v3.3.0-0.5.pre.',
-    )
-    this.toolbarOptions,
-    this.showCursor,
     this.autofocus = false,
     this.obscuringCharacter = '•',
     this.obscureText = false,
@@ -266,7 +254,6 @@ class _MentionTextFieldState extends State<MentionTextField> {
       showSuggestions.value = val != -1;
 
       _selectedMention = val == -1 ? null : wordsLengthList[val];
-      print('_selectedMention : $_selectedMention');
       if (showSuggestions.value) {
         showMentionList();
       } else {
@@ -299,8 +286,6 @@ class _MentionTextFieldState extends State<MentionTextField> {
           ? true
           : name.toLowerCase().contains(selectedMentionText);
     }).toList();
-
-    print(member.length);
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (member.isEmpty) {
@@ -435,13 +420,11 @@ class _MentionTextFieldState extends State<MentionTextField> {
       scrollPhysics: widget.scrollPhysics,
       magnifierConfiguration: widget.magnifierConfiguration,
       selectionControls: widget.selectionControls,
-      showCursor: widget.showCursor,
       smartDashesType: widget.smartDashesType,
       smartQuotesType: widget.smartQuotesType,
       strutStyle: widget.strutStyle,
       textAlignVertical: widget.textAlignVertical,
       mouseCursor: widget.mouseCursor,
-      toolbarOptions: widget.toolbarOptions,
       scrollController: _scrollController,
       obscureText: widget.obscureText,
       onTapOutside: widget.onTapOutside,

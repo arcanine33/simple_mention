@@ -50,7 +50,6 @@ class MentionTextFieldController extends TextEditingController {
               );
             }
           } else {
-            print('else');
             children.add(TextSpan(text: match[0], style: style));
           }
           return '';
